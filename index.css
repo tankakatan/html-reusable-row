@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    width: 80vw;
+    margin: 0 auto;
+    position: relative;
+}
+
+.row {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    box-sizing: border-box;
+    border-bottom: 0.05vw solid white;
+    transform-origin: top;
+    display: flex;
+}
+
+.cell {
+    flex: 1;
+    box-sizing: border-box;
+    border-right: 0.05vw solid white;
+    background: inherit;
+}
+
+.cell:last-child {
+    border-right: none;
+}
