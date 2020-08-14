@@ -14,7 +14,7 @@
     width: 100%;
     top: 0;
     box-sizing: border-box;
-    border-bottom: 0.05vw solid white;
+    border-bottom: 0.1vw solid white;
     transform-origin: top;
     display: flex;
 }
@@ -22,7 +22,7 @@
 .cell {
     flex: 1;
     box-sizing: border-box;
-    border-right: 0.05vw solid white;
+    border-right: 0.1vw solid white;
     background: inherit;
 }
 
